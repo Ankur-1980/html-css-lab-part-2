@@ -68,6 +68,7 @@ a {
   padding-left: 15px;
 }
 
+/* circles */
 .circles-container {
   width: 50%;
 }
@@ -126,45 +127,44 @@ a {
 
 /* Mediia Query */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .circles-container {
     display: none;
   }
 
   #navbar {
     display: block;
-    padding: 25px;
   }
 
   .nav-links {
     flex-direction: column;
   }
 
-  .nav-items {
-    padding-left: 0;
-    margin: 12px 0;
-  }
-
   .nav-items a {
-    padding: 0;
+    padding-left: 0;
+    display: block;
   }
 
   .nav-items a:hover {
+    width: 93%;
+    text-align: center;
   }
 
   .main-container {
     display: block;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 75px;
   }
 
   .company-info {
-    width: 95%;
+    width: 93%;
+    padding-right: 0;
   }
 
   .scroll-down-btn {
     position: relative;
-    width: 95%;
+    text-align: center;
+    width: 93%;
     left: 15px;
     bottom: 20px;
   }
